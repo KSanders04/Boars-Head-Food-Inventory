@@ -1,0 +1,226 @@
+#root {
+  margin: 0;
+  width: 100vw;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.topMenu {
+  background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
+  width: 100%;
+  padding: 1.5em 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  z-index: 10;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 2em;
+}
+
+.menuButtons {
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: #2c3e50;
+  font-size: 1.05em;
+  font-weight: 600;
+  padding: 0.6em 1.2em;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  position: relative;
+}
+
+.menuButtons:hover {
+  border-bottom: 3px solid #4caf50;
+  color: #2e7d32;
+  transform: translateY(-2px);
+}
+
+.header {
+  text-align: center;
+  margin: 0;
+  font-size: 3.2em;
+  font-weight: 800;
+  background: linear-gradient(135deg, #2e7d32 0%, #4caf50 50%, #66bb6a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.centerBox {
+  display: flex;
+  gap: 2.5em;
+  justify-content: center;
+  overflow: hidden;
+  padding: 2em 1em 2em;
+}
+
+.box {
+  width: 35rem;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  padding: 2.5em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1), 0 2px 8px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.box > h1:first-child {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 3px solid #4caf50;
+  position: sticky;
+  top: -40px;
+  background: #ffffff;
+  z-index: 1;
+  color: #2c3e50;
+  letter-spacing: -0.5px;
+}
+
+.foodContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  width: 100%;
+  padding: 1em 0;
+  border-bottom: 1px solid #e8e8e8;
+  color: black;
+  font-weight: 500;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.foodButton {
+  padding: 0.5em 1.25em;
+  border-radius: 20px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.2);
+}
+
+.foodButton:hover {
+  background-color: #45a049;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+.noItems {
+  color: rgb(165, 164, 164);
+  font-size: large;
+  text-align: center;
+}
+
+.addFoodButton {
+  color: black;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trashCan {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.trashCanIcon {
+  width: 18px;
+  height: 18px;
+  color: #e53935;
+  transition: all 0.2s ease;
+}
+
+.trashCanIcon:hover {
+  color: #c62828;
+  transform: scale(1.2);
+}
+
+.nameButton {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.5em;
+  text-align: start;
+}
+
+.nameButton p {
+  font-weight: 500;
+  margin-block: 0;
+  text-align: start;
+}
+
+.editContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  flex: 1;
+}
+
+.editInput {
+  flex: 1;
+  padding: 0.5em;
+  border: none;
+  border-bottom: 2px solid #4caf50;
+  font-size: 1em;
+  outline: none;
+  width: 100px;
+}
+
+.saveButton,
+.cancelButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5em;
+  font-size: 1em;
+  transition: all 0.2s ease;
+}
+
+.saveButton {
+  color: #4caf50;
+}
+
+.cancelButton {
+  color: #e53935;
+}
