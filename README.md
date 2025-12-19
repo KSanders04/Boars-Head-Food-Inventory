@@ -15,6 +15,15 @@ This application allows users to manage their food inventory by tracking items, 
 - **Responsive Design**: Modern, user-friendly interface built with React
 - **RESTful API**: Clean backend architecture with Express.js
 
+## 📺 UI
+
+<img width="713" height="449" alt="homePage" src="https://github.com/user-attachments/assets/b9d8f3fa-27c7-4b85-918a-6dddc2245c66" />
+
+<img width="713" height="449" alt="addFood" src="https://github.com/user-attachments/assets/f2bc9751-f956-41f1-8b5c-17ec60267b10" />
+
+<img width="713" height="449" alt="displayPage" src="https://github.com/user-attachments/assets/7f5b9e7e-a10e-4efe-a35e-4e43caea4314" />
+
+
 ## 🛠️ Technologies Used
 
 ### Frontend
