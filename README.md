@@ -48,7 +48,7 @@ This application allows users to manage their food inventory by tracking items, 
 1. **Clone the repository**
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/KSanders04/Boars-Head-Food-Inventory.git
    cd Project4
    ```
 
