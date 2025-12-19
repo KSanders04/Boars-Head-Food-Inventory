@@ -1,10 +1,10 @@
-# Food Inventory Management System
+# Boar's Head Food Inventory Management System
 
 A full-stack web application for managing food inventory with real-time stock tracking and an intuitive user interface.
 
 ## 🎯 Overview
 
-This application allows users to efficiently manage their food inventory by tracking items, categorizing them by availability, and maintaining detailed information about each product. Built with the MERN stack, it features a modern React frontend and a RESTful API backend.
+This application allows users to manage their food inventory by tracking items, categorizing them by availability, and maintaining detailed information about each product. This also has a display mode which allows all items out of stock to be shown on a screen for customer to see what items are out of stock. Built with modern React frontend and a RESTful API backend.
 
 ## ✨ Features
 
@@ -19,7 +19,7 @@ This application allows users to efficiently manage their food inventory by trac
 
 ### Frontend
 
-- **React 19** - UI framework
+- **React** - UI framework
 - **Vite** - Build tool and development server
 - **React Router** - Client-side routing
 - **FontAwesome** - Icon library
