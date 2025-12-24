@@ -2,11 +2,11 @@
 
 A full-stack web application for managing food inventory with real-time stock tracking and an intuitive user interface.
 
-## 🎯 Overview
+## Overview
 
 This application allows users to manage their food inventory by tracking items, categorizing them by availability, and maintaining detailed information about each product. This also has a display mode which allows all items out of stock to be shown on a screen for customer to see what items are out of stock. Built with modern React frontend and a RESTful API backend.
 
-## ✨ Features
+## Features
 
 - **Real-time Inventory Management**: Add, edit, and delete food items with instant updates
 - **Stock Status Tracking**: Easily move items between "In Stock" and "Out of Stock" categories
@@ -15,7 +15,7 @@ This application allows users to manage their food inventory by tracking items, 
 - **Responsive Design**: Modern, user-friendly interface built with React
 - **RESTful API**: Clean backend architecture with Express.js
 
-## 📺 UI
+## UI
 
 <img width="713" height="449" alt="homePage" src="https://github.com/user-attachments/assets/b9d8f3fa-27c7-4b85-918a-6dddc2245c66" />
 
@@ -24,7 +24,7 @@ This application allows users to manage their food inventory by tracking items, 
 <img width="713" height="449" alt="displayPage" src="https://github.com/user-attachments/assets/7f5b9e7e-a10e-4efe-a35e-4e43caea4314" />
 
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Frontend
 
@@ -46,13 +46,13 @@ This application allows users to manage their food inventory by tracking items, 
 - **ESLint** - Code linting
 - **CORS** - Cross-origin resource sharing
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js (v14 or higher)
 - MongoDB (local installation or MongoDB Atlas account)
 - npm or yarn package manager
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository**
 
@@ -85,7 +85,7 @@ This application allows users to manage their food inventory by tracking items, 
    - Ensure MongoDB is running locally on port 27017, or
    - Update the `MONGO_URI` in `backend/server.js` to point to your MongoDB Atlas cluster
 
-## 💻 Running the Application
+## Running the Application
 
 ### Start the Backend Server
 
@@ -105,7 +105,7 @@ npm run dev
 
 The application will be available at `http://localhost:5173` (or the port shown in your terminal)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Project4/
@@ -126,7 +126,7 @@ Project4/
 └── README.md
 ```
 
-## 🔌 API Endpoints
+## API Endpoints
 
 - `GET /api/items` - Retrieve all food items
 - `GET /api/items/:id` - Retrieve a specific food item
@@ -134,7 +134,7 @@ Project4/
 - `PUT /api/items/:id` - Update an existing food item
 - `DELETE /api/items/:id` - Delete a food item
 
-## 🎨 Key Features Implemented
+## Key Features Implemented
 
 - **Component-based Architecture**: Modular React components for maintainability
 - **State Management**: React hooks (useState, useEffect) for efficient state handling
@@ -142,7 +142,7 @@ Project4/
 - **Error Handling**: Comprehensive error handling on both client and server
 - **Code Quality**: ESLint configuration for consistent code standards
 
-## 🔄 Future Enhancements
+## Future Enhancements
 
 - User authentication and authorization
 - Search and filter functionality
